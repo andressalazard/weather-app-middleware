@@ -5,7 +5,8 @@ const fetch = require("node-fetch");
 
 
 const corsOptions = {
-  origin: "http://localhost:3000"
+  // origin: "http://localhost:3000"
+  origin: "https://weather-app-two-ecru.vercel.app/"
 }
 
 router.get('/search/location/:query',cors(corsOptions), async function(req, res){
