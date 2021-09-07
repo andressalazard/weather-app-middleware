@@ -5,7 +5,7 @@ const app = express();
 
 app.use(cors());
 
-var weather = require("./modules/weather");
+var weather = require("./api/weather");
 app.use("/api/weather",weather);
 
 
